@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------- */
+/* Estilos ARISEI CORE */
+/* ------------------- */
+
+/* Logo default (gris en fondo claro) */
+.navbar-logo-shadow {
+  @apply drop-shadow-[0_0_0px_rgba(128,128,128,0.5)];
+}
+
+/* Logo al hacer scroll (blanco en fondo negro con glow) */
+.navbar-scrolled .navbar-logo-shadow {
+  @apply drop-shadow-[0_0_10px_rgba(255,255,255,0.6)];
+}
+
+/* Transición navbar */
+.navbar-scroll-transition {
+  @apply transition-all duration-500 ease-in-out;
+}
+
+/* Navbar al hacer scroll */
+.navbar-scrolled {
+  @apply text-white bg-black shadow-md;
+}
+
+/* Enlaces con subrayado animado centrado */
+.navbar-link {
+  @apply relative pb-1 tracking-wide text-[15px] font-semibold uppercase transition-colors duration-100;
+}
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease-in-out;
+}
+.navbar-link-active::after,
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+/* Logo más grande en navbar */
+.navbar-logo-size {
+  @apply w-12 h-12 sm:w-14 sm:h-14;
+}
+
+/* ------------------------------ */
+/* UTILIDADES PERSONALIZADAS CSS */
+/* ------------------------------ */
+@layer utilities {
+  /* Fade-in hacia arriba */
+  .animate-fade-in-up {
+    animation: fadeInUp 1.4s ease-out both;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Fondo hexagonal animado */
+  .animate-slow-pan {
+    animation: slow-pan 60s linear infinite;
+  }
+
+  @keyframes slow-pan {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-10px, -10px);
+    }
+  }
+
+  /* Estilo visual para el fondo SVG hexagonal */
+  .hex-pattern {
+    opacity: 0.85;
+    filter: 
+      drop-shadow(0 0 6px rgba(0, 0, 0, 0.25))
+      brightness(1.2)
+      contrast(1.4);
+  }
+
+  /* En modo oscuro, más fuerte */
+  .dark .hex-pattern {
+    filter: 
+      drop-shadow(0 0 4px rgba(255, 255, 255, 0.1))
+      brightness(0.9)
+      contrast(1.2);
+  }
+
+  /* Soporte para tarjetas 3D */
+  .transform-style {
+    transform-style: preserve-3d;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  /* Sombras suaves para elementos activos */
+  .hover-glow {
+    transition: box-shadow 0.4s ease;
+  }
+  .hover-glow:hover {
+    box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+  }
+}

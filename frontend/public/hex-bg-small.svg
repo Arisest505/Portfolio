@@ -1,0 +1,9 @@
+<svg width="100%" height="100%" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Hexágonos súper pequeños -->
+    <pattern id="hexPattern" width="4" height="6.93" patternUnits="userSpaceOnUse">
+      <path d="M2 0 L4 1 L4 3.33 L2 4.33 L0 3.33 L0 1 Z" fill="none" stroke="#c7c7c7" stroke-width="0.4" opacity="0.5"></path>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#hexPattern)"></rect>
+</svg>
