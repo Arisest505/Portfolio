@@ -23,7 +23,7 @@ const experiences = [
     title: 'Ingeniero de Software – Aplicación con IA',
     company: 'CRAMER, Huacho',
     year: 'Febrero – Julio 2025',
-    image: '/vista.jpg', // puedes usar /vista.jpg si no tienes otra
+    image: '/10.png', // puedes usar /vista.jpg si no tienes otra
     description:
       'Diseñé y desarrollé una aplicación de escritorio inteligente para automatizar la lectura, calificación y gestión de cartillas de exámenes. La solución utilizó técnicas de visión por computadora e inteligencia artificial para identificar respuestas, calcular puntajes y generar reportes automáticos por estudiante. Además, se implementó un panel administrativo con control de usuarios y almacenamiento local seguro. Esta herramienta permitió reducir en más de un 80% el tiempo de corrección manual, mejorando la eficiencia institucional y la precisión en los resultados.',
     technologies: [

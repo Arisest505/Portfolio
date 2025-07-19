@@ -12,7 +12,7 @@
       <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
         <!-- Proyecto 1 -->
         <div class="group relative bg-gradient-to-br from-[#1a1a1a] via-[#2b2b2b] to-[#3b3b3b] rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(147,51,234,0.4)] hover:ring-2 hover:ring-[hsl(258,100%,64%)] transition-all duration-500 flex flex-col">
-          <img src="/vista.jpg" alt="Proyecto empresa" class="object-cover w-full h-48 transition duration-300 opacity-90 group-hover:opacity-60" />
+          <img src="/1.png" alt="Proyecto empresa" class="object-cover w-full h-48 transition duration-300 opacity-90 group-hover:opacity-60" />
           <div class="flex-grow p-6 space-y-4">
             <h3 class="text-xl font-bold text-[hsl(258,100%,64%)] flex items-center gap-2">
               <Icon icon="mdi:office-building-outline" class="text-lg text-purple-300" />
@@ -28,7 +28,7 @@
 
         <!-- Proyecto 2 -->
         <div class="group relative bg-gradient-to-br from-[#1a1a1a] via-[#2b2b2b] to-[#3b3b3b] rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(147,51,234,0.4)] hover:ring-2 hover:ring-[hsl(258,100%,64%)] transition-all duration-500 flex flex-col">
-          <img src="/vista.jpg" alt="App React + Python" class="object-cover w-full h-48 transition duration-300 opacity-90 group-hover:opacity-60" />
+          <img src="/10.png" alt="App React + Python" class="object-cover w-full h-48 transition duration-300 opacity-90 group-hover:opacity-60" />
           <div class="flex-grow p-6 space-y-4">
             <h3 class="text-xl font-bold text-[hsl(258,100%,64%)] flex items-center gap-2">
               <Icon icon="mdi:robot" class="text-lg text-purple-300" />
@@ -44,7 +44,7 @@
 
         <!-- Proyecto 3 -->
         <div class="group relative bg-gradient-to-br from-[#1a1a1a] via-[#2b2b2b] to-[#3b3b3b] rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(147,51,234,0.4)] hover:ring-2 hover:ring-[hsl(258,100%,64%)] transition-all duration-500 flex flex-col">
-          <img src="/vista.jpg" alt="Editor diseño" class="object-cover w-full h-48 transition duration-300 opacity-90 group-hover:opacity-60" />
+          <img src="/ee0fe765-8289-4433-bc75-2f21854bfef1.jpg" alt="Editor diseño" class="object-cover w-full h-48 transition duration-300 opacity-90 group-hover:opacity-60" />
           <div class="flex-grow p-6 space-y-4">
             <h3 class="text-xl font-bold text-[hsl(258,100%,64%)] flex items-center gap-2">
               <Icon icon="mdi:palette-outline" class="text-lg text-purple-300" />

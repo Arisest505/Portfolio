@@ -40,7 +40,7 @@
         />
 
         <!-- Filtro oscuro -->
-        <div class="absolute inset-0 z-10 bg-black bg-opacity-60 backdrop-blur-sm"></div>
+        <div class="absolute inset-0 z-10 bg-black bg-opacity-30 "></div>
 
         <!-- Contenido principal -->
         <div class="relative z-20 flex flex-col justify-end h-full">
@@ -141,7 +141,7 @@
                       <div>
                         <p class="text-sm font-semibold text-white/90">Repositorio</p>
                         <a
-                          href="#"
+                          href="https://github.com/Arisest505"
                           class="text-xs text-purple-300 underline transition hover:text-purple-400"
                         >
                           Ver en GitHub
@@ -185,11 +185,11 @@ const projects = [
   {
     title: 'Página Web Corporativa',
     icon: 'mdi:office-building-outline',
-    image: '/vista.jpg',
+    image: '/PAGINA_WEB.png',
     technologies: ['logos:html-5', 'logos:css-3', 'logos:javascript'],
     description:
       'Desarrollé un sitio web profesional para una empresa local, enfocado en comunicar profesionalismo y confianza desde el primer contacto. El sitio es completamente responsivo, accesible desde cualquier dispositivo y optimizado para motores de búsqueda (SEO). Utilicé HTML5, CSS3 y JavaScript para garantizar compatibilidad, rapidez de carga y estructura semántica clara. Además, incluí animaciones personalizadas para una experiencia de navegación fluida y moderna. El proyecto fue desplegado eficientemente mediante GitHub Pages, eliminando costos de hosting sin sacrificar calidad.',
-    duration: '2 semanas',
+    duration: '3 semanas',
     durationIcon: 'fa6-regular:clock',
     team: '1 persona',
     teamIcon: 'fa6-solid:user'
@@ -197,11 +197,11 @@ const projects = [
   {
     title: 'Aplicación de Escritorio con IA',
     icon: 'mdi:robot',
-    image: '/vista.jpg',
+    image: 'EXAMENES.png',
     technologies: ['logos:react', 'logos:python', 'logos:electron'],
     description:
       'Este sistema fue diseñado para automatizar la corrección de cartillas de examen mediante visión por computadora e inteligencia artificial. Utilicé Electron y React para crear una aplicación de escritorio multiplataforma, integrando un backend robusto en Python que procesa imágenes, aplica lógica de validación y genera reportes automatizados. La aplicación incluye gestión de usuarios, almacenamiento local seguro y exportación de resultados. Fue implementada para una institución educativa que buscaba precisión, rapidez y trazabilidad en sus procesos académicos.',
-    duration: '1.5 meses',
+    duration: '4 meses',
     durationIcon: 'fa6-regular:clock',
     team: '2 personas',
     teamIcon: 'fa6-solid:user-group'
@@ -209,11 +209,11 @@ const projects = [
   {
     title: 'Editor de Diseño en Tiempo Real',
     icon: 'mdi:palette-outline',
-    image: '/vista.jpg',
+    image: '/VIAJES.png',
     technologies: ['logos:nextjs-icon', 'logos:typescript-icon', 'logos:javascript', 'logos:react'],
     description:
       'Desarrollé una herramienta web avanzada que permite a los usuarios personalizar la apariencia de interfaces visuales en tiempo real, sin necesidad de conocimientos técnicos. Utilicé Next.js con TypeScript y React para ofrecer una experiencia ágil, fluida y segura. Los usuarios pueden modificar dinámicamente colores, tipografías, fondos y estilos generales, con vista previa instantánea. La arquitectura está basada en Server-Side Rendering (SSR) para un rendimiento óptimo y mejor indexación en buscadores. Esta herramienta está pensada para diseñadores, desarrolladores front-end y creadores de contenido visual.',
-    duration: '3 semanas',
+    duration: '1 mes',
     durationIcon: 'fa6-regular:clock',
     team: '1 persona',
     teamIcon: 'fa6-solid:user'
@@ -228,8 +228,8 @@ const projects = [
 
 .panel-glass {
   background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
   border-top: 1px solid rgba(168, 85, 247, 0.3);
   box-shadow: 0 -6px 30px rgba(0, 0, 0, 0.4);
   border-radius: 1.5rem 1.5rem 0 0;
@@ -274,8 +274,8 @@ button:hover {
 /* Panel desplegable (glassmorphism) */
 .panel-glass {
   background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
   border-top: 1px solid rgba(168, 85, 247, 0.5); /* púrpura semitransparente */
   box-shadow: 0 -4px 20px rgba(168, 85, 247, 0.2);
   border-radius: 1rem 1rem 0 0;
@@ -328,8 +328,8 @@ button:hover {
 }
 .bg-glass-dark {
   background: rgba(0, 0, 0, 0.65);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
 }
 
 .project-title {
