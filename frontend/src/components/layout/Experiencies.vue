@@ -19,6 +19,25 @@
 import ExperienceCard from '../sections/ExperienceCard.vue'
 import { Icon } from '@iconify/vue'
 const experiences = [
+{
+  title: 'Ingeniero de Software – ERP Empresarial Personalizado',
+  company: 'AGROLIT EIRL · Barranca',
+  year: 'Febrero – Diciembre 2024',
+  image: '/image.png',
+  description:
+    'Diseño, desarrollo e implementación de un sistema ERP empresarial totalmente personalizado, orientado a optimizar los procesos internos de la organización. ' +
+    'El sistema incluyó módulos de gestión administrativa, control de inventarios, caja y facturación, recursos humanos, reportes gerenciales y manejo de múltiples empresas. ' +
+    'Se trabajó sobre el framework Laravel, adaptando y migrando funcionalidades existentes, estructurando la base de datos mediante migraciones y aplicando buenas prácticas de arquitectura y seguridad. ' +
+    'La solución fue desarrollada en estrecha colaboración con el empleador, logrando cumplir y superar los requerimientos funcionales y operativos establecidos.',
+  technologies: [
+    { name: 'Laravel', icon: 'logos:laravel' },
+    { name: 'PHP', icon: 'logos:php' },
+    { name: 'JavaScript', icon: 'logos:javascript' },
+    { name: 'CSS', icon: 'logos:css-3' },
+    { name: 'MySQL', icon: 'logos:mysql' }
+  ]
+},
+
   {
     title: 'Ingeniero de Software – Aplicación con IA',
     company: 'CRAMER, Huacho',

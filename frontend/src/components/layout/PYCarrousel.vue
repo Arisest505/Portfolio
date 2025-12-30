@@ -183,6 +183,30 @@ const onSlideChange = () => {
 
 const projects = [
   {
+    title: 'Plataforma Web Educativa con IA para Evaluación y Reportes',
+    icon: 'mdi:school-outline',
+    image: '/ajshkjfbdhjabgoaskds.png',
+    technologies: [
+      'logos:nextjs',
+      'logos:typescript-icon',
+      'logos:javascript',
+      'logos:python',
+      'logos:react',
+      'logos:json',
+    ],
+    description:
+      'Diseño y desarrollo de una plataforma web avanzada orientada a instituciones educativas, enfocada en la digitalización, evaluación y análisis automatizado del rendimiento académico. ' +
+      'La plataforma permite la revisión de cartillas de evaluación, generación automática de exámenes mediante inteligencia artificial y elaboración de reportes detallados por aula y estudiante. ' +
+      'El sistema incorpora modelos de visión por computadora entrenados para la detección de marcas circulares en cartillas físicas, utilizando Python, Roboflow y procesos de entrenamiento de IA personalizados. ' +
+      'El backend se encarga del procesamiento de datos, análisis inteligente y generación de reportes estructurados, mientras que el frontend fue desarrollado con Next.js, TypeScript y TSX para garantizar rendimiento, escalabilidad y una experiencia de usuario moderna. ' +
+      'Adicionalmente, se integró una pasarela de pagos mediante Culqi, permitiendo la gestión segura de suscripciones y servicios dentro de la plataforma.',
+    duration: '2 – 3 meses',
+    durationIcon: 'fa6-regular:clock',
+    team: 'Proyecto individual',
+    teamIcon: 'fa6-solid:user'
+  }
+  ,
+  {
     title: 'Página Web Corporativa',
     icon: 'mdi:office-building-outline',
     image: '/PAGINA_WEB.png',

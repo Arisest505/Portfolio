@@ -10,6 +10,9 @@
 
       <!-- Tarjetas de proyectos -->
       <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+
+
+
         <!-- Proyecto 1 -->
         <div class="group relative bg-gradient-to-br from-[#1a1a1a] via-[#2b2b2b] to-[#3b3b3b] rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(147,51,234,0.4)] hover:ring-2 hover:ring-[hsl(258,100%,64%)] transition-all duration-500 flex flex-col">
           <img src="/1.png" alt="Proyecto empresa" class="object-cover w-full h-48 transition duration-300 opacity-90 group-hover:opacity-60" />

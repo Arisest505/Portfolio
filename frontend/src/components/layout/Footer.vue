@@ -25,12 +25,13 @@
           <span class="hidden text-sm sm:inline">github.com/Arisest505</span>
         </a>
         <a
-          href="mailto:loganminsahira@gmail.com"
+          href="mailto:arisescrp@gmail.com"
           title="Correo"
           class="flex items-center gap-2 text-pink-400 transition hover:scale-110"
         >
           <i class="text-2xl fas fa-envelope"></i>
-          <span class="hidden text-sm sm:inline">loganminsahira@gmail.com</span>
+          <span class="hidden text-sm sm:inline">arisescrp@gmail.com
+</span>
         </a>
         <a
           title="Teléfono"
