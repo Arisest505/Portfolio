@@ -70,8 +70,9 @@
 
   <!-- Descripción -->
   <p class="mb-4 text-base leading-relaxed opacity-90">
-    Soy un desarrollador apasionado por la creación de experiencias web modernas, dinámicas y visualmente impactantes.
-    Me enfoco en rendimiento, diseño interactivo y soluciones personalizadas que se adaptan a la necesidad del cliente.
+    Soy Kenyy Jesús Ruiz Daza, un desarrollador Full Stack apasionado por crear soluciones web modernas y eficientes. 
+    Con experiencia en tecnologías como Vue.js, Tailwind CSS, Laravel y PostgreSQL, me especializo en desarrollar aplicaciones escalables y seguras que ofrecen una experiencia de usuario excepcional. 
+    Siempre estoy buscando nuevas oportunidades para colaborar en proyectos innovadores y desafiantes.
   </p>
 
 <!-- Botón de descarga como enlace -->
