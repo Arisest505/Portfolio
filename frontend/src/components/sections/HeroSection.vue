@@ -32,7 +32,7 @@
       </a>
 
       <a
-        href="/CV KENYY JESUS RUIZ DAZA.pdf"
+        href="/Curriculum_vitae.pdf"
         download
         class="px-7 py-3 text-sm font-semibold text-white transition-all duration-300 border rounded-full border-white/25 hover:bg-white hover:text-black"
       >
@@ -77,7 +77,7 @@
 
 <!-- Botón de descarga como enlace -->
 <a
-  href="/CV KENYY JESUS RUIZ DAZA.pdf"
+  href="/Curriculum_vitae.pdf"
   download
   class="inline-flex items-center gap-2 px-6 py-2 mt-4 text-white transition rounded-full bg-gradient-to-r from-gray-700 to-black hover:scale-105"
 >
